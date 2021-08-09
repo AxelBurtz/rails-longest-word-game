@@ -1,0 +1,8 @@
+<% @letters.each do |l| %>
+<span><%= l %></span>
+<% end %>
+
+<form action="score" method="post">
+<input type="text" name="user_input" id="user_input">What is the longest word you can find ?
+<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+</form>

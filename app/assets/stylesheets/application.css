@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+span {
+  background-color: #3498DC;
+  font-weight: bold;
+  padding: 20px;
+  color: white;
+  font-size: 40px;
+  inline-size: auto;
+  margin: 20px;
+}
+
+form {
+  margin-top: 100px;
+}
